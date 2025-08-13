@@ -20,7 +20,7 @@ Follow these steps to get a local copy of the project up and running.
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/whizz-tamie/vocabbuddy.git)
+git clone https://github.com/whizz-tamie/vocabbuddy.git
 cd vocabbuddy
 ````
 
