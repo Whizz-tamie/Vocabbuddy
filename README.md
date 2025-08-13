@@ -1,4 +1,3 @@
-markdown
 # AI Vocabulary Recommendation Backend
 
 This is the backend for an AI-powered vocabulary learning recommendation system. It uses a combination of machine learning models and an AI agent to provide personalized word recommendations to Chinese students (ages 13-17) via a WeChat mini-program.
