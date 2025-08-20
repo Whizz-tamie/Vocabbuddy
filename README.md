@@ -1,15 +1,15 @@
 # AI Vocabulary Recommendation Backend
 
-This is the backend for an AI-powered vocabulary learning recommendation system. It uses a combination of machine learning models and an AI agent to provide personalized word recommendations to Chinese students (ages 13-17) via a WeChat mini-program.
+This is the backend for a vocabulary learning recommendation system. It uses a combination of machine learning models and an AI agent to provide personalized word recommendations to Chinese students (ages 13-17) via a WeChat mini-program.
 
 ---
 
 ## Features
 
-* **Content-Based Recommendation**: Uses a **K-Nearest Neighbors (KNN)** model on word embeddings to find vocabulary related to a user's chosen topic.
+* **Content-Based Filtering**: Uses a **K-Nearest Neighbors (KNN)** model on word embeddings to find vocabulary related to a user's chosen topic.
 * **Difficulty Classification**: A **Decision Tree model** classifies the difficulty of recommended words to match the student's English proficiency level (Beginner, Intermediate, Advanced).
 * **Conversational AI Agent**: A **LangChain agent** with a custom persona and tools interacts with the user in natural language, providing definitions and example sentences.
-* **RESTful API**: Exposes these functionalities through a clean, FastAPI-based API.
+* **RESTful API**: Exposes these functionalities through a FastAPI-based API.
 
 ---
 
